@@ -8,7 +8,7 @@ gem "jekyll", "3.6.2"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-   gem "jemoji"
+   gem "jemoji", ">= 0.10.0"
    gem "github-pages"
    gem "jekyll-remote-theme"
 end
